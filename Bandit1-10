@@ -1,0 +1,9 @@
+ssh bandit1@bandit.labs.overthewire.org -p 2220 SSH KEY
+ls list of files
+
+./  escape character
+file ./-* display filetypes of all files in current directory starting with -
+
+find . -type f -size 1033c ! -executable (find file using properties)
+
+cat data.txt | sort | uniq -u ( pipe filters output...used sort as uniq cant recognize duplicate lines which are not adjacent)
